@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+	<h1>Crystal Collector!</h1>
+
+	<!--instructions-->
+	<div>
+		<ul>
+			<li>Your goal is to match your score with the target number</li>
+			<li>Clicking on a crystal will increase your score a specific amount</li>
+			<li>The value of each crystal is hidden and will change between games</li>
+			<li>You win if you can match the target number but lose if your score goes over the target number</li>
+			<li>Good luck!</li>
+		</ul>
+	</div>
+
+	<br>
+	<!--display crystals-->
+
+	<div>
+		<img id="orange" src="assets/images/crystal1.jpg" alt="orangeCrystal">
+		<img id="green" src="assets/images/crystal2.png" alt="greenCrystal">
+		<img id="blue" src="assets/images/crystal3.png" alt="blueCrystal">
+		<img id="purple" src="assets/images/crystal4.jpg" alt="purpleCrystal">
+	</div>
+
+	<br>
+	<!--Scoreboard-->
+	<div>
+		<ul>
+			<li>Target Number: <span id="targetNum"></span></li>
+			<li>Player Number: <span id="playerNum"></span></li>
+			<li>Wins: <span id="wins"></span></li>
+			<li>Losses: <span id="losses"></span></li>
+		</ul>
+	</div>
+
+	<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
