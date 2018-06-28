@@ -1,6 +1,6 @@
-# unit-4-game
+# Crystal-Collector
 
-Crystal Collector
+
 
 Your goal is to match your score with the target number
 Clicking on a crystal will increase your score a specific amount
